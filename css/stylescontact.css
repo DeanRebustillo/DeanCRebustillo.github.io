@@ -17,16 +17,6 @@ body{
 	
 }
 
-.profile-picture {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 5%;
-  height: auto;
-  max-width: 200px;
-  border-radius: 50%;
-}
-
 .personal {
   text-align: center;
   font-size: 28px;
