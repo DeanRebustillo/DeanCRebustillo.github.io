@@ -17,6 +17,11 @@ body{
 	
 }
 
+.image{
+    width: 100%;
+    text-align: center;
+}
+
 .personal {
   text-align: center;
   font-size: 28px;
