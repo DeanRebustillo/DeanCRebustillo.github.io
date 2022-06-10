@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="index.html" id="navbar__logo">DCBR</a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span> <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="#home" class="navbar__links" id="home-page">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#about" class="navbar__links" id="about-page">Profile</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#project" class="navbar__links" id="project-page">Projects</a>
+          </li>
+          <li class="navbar__btn">
+            <a href="#sign-up" class="button" id="contact">Contact Me</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="hero" id="home">
+      <div class="hero__container">
+        <h1 class="hero__heading">Dean Clyte <span>Rebustillo</span></h1>
+        <p class="hero__description">Industry Ready</p>
+      </div>
+    </div>
+
+    <div class="main" id="about">
+      <div class="main__container">
+        <div class="main__img--container">
+          <div class="main__img--card">
+		  <img src="Img/profile.jpg">
+		  </div>
+        </div>
+        <div class="main__content">
+          <h1>What do I do?</h1>
+          <h2>I'm an IT Professional</h2>
+          <button class="main__btn" onclick="window.location.href='profile.html'"><a href="#">Explore</a></button>
+        </div>
+      </div>
+    </div>
+
+    <div class="project" id="project">
+      <h1>My Projects</h1>
+      <div class="project__wrapper">
+        <div class="project__card">
+		  <img src="Img/world-wide-web.png">
+        </div>
+        <div class="project__card">
+		<img src="Img/computer.png">
+        </div>	
+        <div class="project__card">
+		<img src="Img/smartphone-call.png">
+        </div>
+        <div class="project__card">
+		<img src="Img/device-connectors.png">
+        </div>
+		<button class="main__btn" onclick="window.location.href='project.html'"><a href="#">View Projects</a></button>
+      </div>
+    </div>
+
+    <div class="main" id="sign-up">
+      <div class="main__container">
+        <div class="main__content">
+          <h1>Include me to your Team</h1>
+          <h2>Let's talk about it</h2>
+         <button class="main__btn" onclick="window.location.href='contact.html'"><a href="#">Contact Me</a></button>
+        </div>
+        <div class="main__img--container">
+
+          <div class="main__img--card" id="card-2">	
+<div class="main__img--card"><img src="Img/call.png"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+	<div class="footer">
+  <p>Developed by: Rebustillo, Dean Clyte B. - 2022</p>
+</div>
+
+
+    <script src="script/script.js"></script>
+
+  </body>
+</html>

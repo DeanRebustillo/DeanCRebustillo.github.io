@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  font-family: myFirstFont;
+    scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(SamsungOne-700.ttf);
+}
+
+body{
+    background-color: #000000;
+		text-align: justify;
+	
+}
+
+.profile-picture {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
+  height: auto;
+  max-width: 200px;
+  border-radius: 50%;
+}
+
+.personal {
+  text-align: center;
+  font-size: 28px;
+}
+
+.profile-links {
+  text-align: center;
+  font-size: 35px;
+}
+
+.links{	
+  border-style: solid;
+  border-color:  #ff8177;
+}
+
+.links {
+  text-align: center;
+  margin-top: 20px;
+  border-width: 2px;
+  padding: 20px;
+  width: 290px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 40px;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  transition: color 1s;
+}
+
+.links:hover {
+  color: black;
+    transition: color 1s;
+  background: linear-gradient(to bottom, #9900ff 0%, #ff5050 100%);
+}
+
+
+
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+.content {
+background: #131313;
+color: #fff;
+border-radius: 25px;
+padding: 15px;
+margin: 15px;
+margin-bottom: 200px;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: auto%;
+  }
+}
+
+.footer {
+left: 0;
+bottom: 0;
+width: 100%;
+background-color: #000000;
+color: #ffffff;
+  text-align: center;
+  font-size: 15px;
+  padding: 5px;
+} 	
+
